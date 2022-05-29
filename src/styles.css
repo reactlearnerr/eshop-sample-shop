@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 2rem;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+header {
+  height: 80px;
+  background-color: aquamarine;
+  padding: 0 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+header h2 {
+  text-decoration: underline crimson;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a,
+button {
+  cursor: pointer;
+}
